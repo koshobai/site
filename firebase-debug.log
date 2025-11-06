@@ -1,0 +1,47 @@
+[debug] [2025-11-06T05:52:36.504Z] ----------------------------------------------------------------------
+[debug] [2025-11-06T05:52:36.505Z] Command:       /Users/tariq/.nvm/versions/node/v22.17.1/bin/node /Users/tariq/.nvm/versions/node/v22.17.1/bin/firebase deploy
+[debug] [2025-11-06T05:52:36.505Z] CLI Version:   14.24.0
+[debug] [2025-11-06T05:52:36.505Z] Platform:      darwin
+[debug] [2025-11-06T05:52:36.505Z] Node Version:  v22.17.1
+[debug] [2025-11-06T05:52:36.505Z] Time:          Thu Nov 06 2025 14:52:36 GMT+0900 (Japan Standard Time)
+[debug] [2025-11-06T05:52:36.505Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-06T05:52:36.602Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-06T05:52:36.602Z] > authorizing via signed-in user (tariq@koshobai.com)
+[debug] [2025-11-06T05:52:36.603Z] [iam] checking project koshobai2026 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-11-06T05:52:36.603Z] Checked if tokens are valid: false, expires at: 1762408613978
+[debug] [2025-11-06T05:52:36.603Z] Checked if tokens are valid: false, expires at: 1762408613978
+[debug] [2025-11-06T05:52:36.603Z] > refreshing access token with scopes: []
+[debug] [2025-11-06T05:52:36.604Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-06T05:52:36.604Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-06T05:52:36.831Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-06T05:52:36.831Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-06T05:52:36.849Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/koshobai2026:testIamPermissions [none]
+[debug] [2025-11-06T05:52:36.849Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/koshobai2026:testIamPermissions x-goog-quota-user=projects/koshobai2026
+[debug] [2025-11-06T05:52:36.849Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/koshobai2026:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-06T05:52:37.122Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/koshobai2026:testIamPermissions 200
+[debug] [2025-11-06T05:52:37.122Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/koshobai2026:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-06T05:52:37.123Z] Checked if tokens are valid: true, expires at: 1762411955831
+[debug] [2025-11-06T05:52:37.123Z] Checked if tokens are valid: true, expires at: 1762411955831
+[debug] [2025-11-06T05:52:37.124Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/koshobai2026 [none]
+[debug] [2025-11-06T05:52:37.520Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/koshobai2026 200
+[debug] [2025-11-06T05:52:37.521Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/koshobai2026 {"projectId":"koshobai2026","projectNumber":"728157057533","displayName":"koshobai2026","name":"projects/koshobai2026","resources":{"hostingSite":"koshobai2026"},"state":"ACTIVE","etag":"1_399081b0-c663-4e8c-9a9e-cb4bf448295e"}
+[info] 
+   Thank you for trying our experimental support for Vite on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-11-06T05:52:41.731Z] Could not resolve "./src/App.js" from "src/main.jsx"
+file: /Users/tariq/Desktop/site/build/src/main.jsx
+    at getRollupError (file:///Users/tariq/Desktop/site/build/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///Users/tariq/Desktop/site/build/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///Users/tariq/Desktop/site/build/node_modules/rollup/dist/es/shared/node-entry.js:21565:24)
+    at file:///Users/tariq/Desktop/site/build/node_modules/rollup/dist/es/shared/node-entry.js:21525:26
+[error] 
+[error] Error: An unexpected error has occurred.
