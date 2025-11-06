@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="navbar">
       <nav>
         <Link to="/" className="brand">
-          <h2>Nutabi! </h2>ニュウ旅
+          <h2>Koshobai </h2>コショバイ
         </Link>
       </nav>
     </div>

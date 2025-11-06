@@ -11,7 +11,7 @@ export default function Articles() {
     <div className="articles">
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
-      <h2 className="page-title">Nutabi Blog</h2>
+      <h2 className="page-title">Koshobai's Latest</h2>
       {data && <EntryList entries={data.entries} />}
     </div>
   )

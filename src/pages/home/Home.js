@@ -125,7 +125,7 @@ export default function Home() {
         <br /> */}
       </div>
       <a href="/about#about-top" className="brand">
-        <h6 className="copyright">©︎ 2025 Nutabi </h6>
+        <h6 className="copyright">©︎ 2025 Koshobai </h6>
       </a>
     </div>
   )
