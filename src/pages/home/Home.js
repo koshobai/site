@@ -1,5 +1,5 @@
 import "./Home.css"
-import { Link } from "react-router-dom/cjs/react-router-dom.min"
+// import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
 export default function Home() {
   return (
