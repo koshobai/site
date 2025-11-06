@@ -1,0 +1,17 @@
+.page-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #777;
+}
+
+.page-placeholder h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}

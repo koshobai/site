@@ -1,5 +1,5 @@
 // styles
-import "./Homepage.css"
+import "./form.css"
 
 // components
 

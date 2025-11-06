@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Navbar2 from "./components/Navbar2"
 import Navbar3 from "./components/Navbar3"
 import Home from "./pages/home/Home"
+import Form from "./pages/form/Form"
 import Create from "./pages/create/Create"
 import Search from "./pages/search/Search"
 import Entry from "./pages/entry/Entry"
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/homepage">
             <Homepage />
+          </Route>
+          <Route path="/form">
+            <Form />
           </Route>
           <Route path="/create">
             <Create />
