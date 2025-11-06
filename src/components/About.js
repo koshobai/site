@@ -4,17 +4,17 @@ import profilePhoto from "../assets/mirai-tower-top.jpg"
 export default function About() {
   return (
     <div className="about-us" id="about-top">
-      <h2>About Nutabi</h2>
+      <h2>About Koshobai</h2>
       <div className="about-content">
         <img src={profilePhoto} alt="mirai-tower" className="about-photo" />
         <div className="about-text">
           <p>
-            Nutabi (ニュウ旅) is a new business venture that was created to
+            Koshobai (コショバイ) is a business venture that was created to
             bridge cultures and create opportunities within Japan for game
             company owners from overseas.
           </p>
           <p>
-            This initiative is the result of a direct partnership with&nbsp;
+            We have a direct partnership with&nbsp;
             <strong>
               <a href="https://newborn.co.jp/index.html#sec04">
                 NewBorn Honsya
