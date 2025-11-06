@@ -1,5 +1,5 @@
 // styles
-import "./form.css"
+import "./Form.css"
 
 // components
 
