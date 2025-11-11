@@ -39,7 +39,7 @@ function App() {
           <Route path="/create">
             <Create />
           </Route>
-          <Route path="/Event">
+          <Route path="/event">
             <Event />
           </Route>
           <Route path="/search">
