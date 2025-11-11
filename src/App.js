@@ -39,6 +39,9 @@ function App() {
           <Route path="/create">
             <Create />
           </Route>
+          <Route path="/Event">
+            <Event />
+          </Route>
           <Route path="/search">
             <Search />
           </Route>
