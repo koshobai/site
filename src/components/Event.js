@@ -13,10 +13,8 @@ export default function Event() {
             bridge cultures and create opportunities within Japan for game
             company owners from overseas.
           </p>
-          <p>
-            Come hang out with us at Second Home on Mr Miyamoto's birthday!
-            Sunday, November 16th 2025 in Fushimi, Nagoya, Japan.
-          </p>
+          <p>Come hang out with us at Second Home on Mr Miyamoto's birthday!</p>
+          <p>Sunday, November 16th 2025 at 1pm in Fushimi, Nagoya, Japan.</p>
           <div
             className="map-container"
             style={{ width: "100%", overflow: "hidden" }}
@@ -40,11 +38,12 @@ export default function Event() {
             Shigeru Miyamoto, the legendary game designer behind iconic
             franchises like Mario, Zelda, and Donkey Kong.
           </p>
-          <strong>
-            <a href="https://youtu.be/VtHiBZ3jn8g">
-              Give this video on ludology a shot if you have the time.
-            </a>
-          </strong>
+
+          <a href="https://youtu.be/VtHiBZ3jn8g">
+            Give <strong>this conference call </strong>on ludology a listen if
+            you have the time.
+          </a>
+
           <br />
           <br />
           <br />
